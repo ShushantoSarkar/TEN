@@ -1,0 +1,30 @@
+.homeContainer{
+    text-align: center;
+}
+
+.img{
+    width: 95%;
+    margin-top: 30px;
+}
+
+.text1{
+    position: relative; 
+    bottom: 100px;
+}
+
+.content2{
+    background-color: #F84040;
+    width: 95%;
+    padding-bottom: 7%;
+    margin: 0 auto;
+}
+
+.hImg2{
+    width: 45%;
+    border-radius: 5px;
+    border:2px solid black;
+    float: right;
+    margin-top: 4%;
+    margin-right: 40px;
+}
+

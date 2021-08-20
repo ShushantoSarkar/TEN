@@ -1,0 +1,142 @@
+.topBar {
+  margin: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cName {
+  font-size: 200%;
+  font-weight: 700;
+  color: red;
+}
+
+.black {
+  color: black;
+}
+
+.topItems {
+  width: 50%;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.cart button {
+  background-color: red;
+  position: absolute;
+  border: none;
+  border-radius: 20px;
+  font-size: 100%;
+  width: 7%;
+  padding: 10px;
+}
+
+.cart button:hover {
+  color: white;
+  background-color: #3b456e;
+  cursor: pointer;
+}
+
+.loginBtn button {
+  border: 1px solid black;
+  font-size: 90%;
+  width: 100%;
+  background-color: white;
+  padding: 10px 17px;
+  box-shadow: 1px 1px 4px;
+  cursor: pointer;
+}
+
+.loginBtn button:hover {
+  color: gray;
+}
+
+.searchBar input,
+i {
+  background-color: black;
+  color: white;
+  width: 80%;
+  margin-right: 20px;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+}
+
+.searchBar input:hover {
+  background-color: #fde4ec;
+}
+
+input::placeholder {
+  color: white;
+  font-size: large;
+}
+
+@media (max-width: 550px) {
+  .cart {
+    width: 25px;
+    margin-right: 45px;
+  }
+
+  .loginBtn {
+    margin-right: 20px;
+  }
+
+  .loginText {
+    display: none;
+  }
+}
+
+.navItems ul {
+  display: flex;
+  font-size: 120%;
+  width: 60%;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.navItems li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.navItems li:hover {
+  color: #f01313;
+}
+
+.gray{
+  color: gray;
+}
+
+.moreItems ul>li{
+    border-bottom: 1px solid rgb(249, 208, 208);
+    padding: 15px 0px;
+}
+
+.moreItems ul{
+    flex-direction: column;
+    position: absolute;
+    right: 3%;
+    text-align: center;
+    width:max-content;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.moreContent{
+    display: none;
+}
+
+.moreItems:hover .moreContent {
+    display: block;
+}
+
+
+/* @media (max-width: 650px) {
+  .navItems{
+    display: none;
+  }
+} */
