@@ -1,0 +1,51 @@
+.certified{
+    margin: 10px;
+    background: url(../images/certifiedBg.png) no-repeat;
+    background-size: cover;
+}
+
+.certified h1{
+    text-align: center;
+    color: #51296E;
+    font-size: 2.5rem;
+}
+
+.certified p{
+    margin: 20px;
+}
+
+.certified p a{
+    color: black;
+}
+
+.certified form{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.inputTag{
+    display: flex;
+}
+
+
+.inputTag input{
+    margin: 20px;
+    padding: 7px;
+    width: 55%;
+}
+
+.submitBtn{
+    background-color: red;
+    border:none;
+    padding: 10px;
+    width: 15%;
+    font-size: 1rem;
+    box-shadow: 0px 10px 19px -10px #111;
+}
+
+#qrcode {
+    margin: 0 auto;    
+    margin-bottom: 20px;
+    width: 45%;
+    background-color: red;
+}

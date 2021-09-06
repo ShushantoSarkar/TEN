@@ -1,11 +1,11 @@
 import React from "react";
-// import { Route, Switch } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./css/Nav.css";
 import { FiShoppingCart } from "react-icons/fi";
 import { CgProfile } from "react-icons/cg";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-// import React, { OnlineCourses } from "./Onlinecourses";
+
 
 function Nav() {
   return (
@@ -38,18 +38,24 @@ function Nav() {
       <div className="navBar">
         <div className="navItems">
           <ul>
-            <li className="btn, active">Home</li>
+            {/* <Link to="/">
+              <li className="btn, active">Home</li>
+            </Link> */}
             <span className="gray">|</span>
             <li className="btn">Online Courses</li>
             <span className="gray">|</span>
-            <li className="btn">We're Hiring</li>
+            {/* <Link to="/hiring">
+              <li className="btn">We're Hiring</li>
+            </Link> */}
             <span className="gray">|</span>
             <div className="moreItems">
               <li className="more btn">More</li>
               <div className="moreContent">
                 <ul>
                   <li className="btn">Blog</li>
-                  <li className="btn">Certification</li>
+                  {/* <Link to="/certification">
+                    <li className="btn">Certification</li>
+                  </Link> */}
                   <li className="btn">Alumni Team</li>
                   <li className="btn">Forum</li>
                   <li className="btn">Hackathon</li>

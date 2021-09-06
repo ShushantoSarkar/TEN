@@ -9,7 +9,12 @@
 
 .text1{
     position: relative; 
-    bottom: 100px;
+    margin: 0 auto;
+    bottom: 200px;
+    width: 90%;
+    height: 100vh;
+    color: #FDE78F;
+    font-size: 50px;    
 }
 
 .content2{
@@ -26,5 +31,15 @@
     float: right;
     margin-top: 4%;
     margin-right: 40px;
+}
+
+.hImg3{
+    position: static;
+    z-index: -1;
+}
+
+.text3{
+    position: relative;
+    bottom: 200px;
 }
 

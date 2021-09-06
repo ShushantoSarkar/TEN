@@ -124,6 +124,7 @@ input::placeholder {
     width:max-content;
     padding-right: 30px;
     font-size: 20px;
+    background-color: white;
 }
 
 .moreContent{
