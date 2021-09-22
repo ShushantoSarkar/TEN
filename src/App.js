@@ -5,17 +5,28 @@ import Nav from "./Nav.jsx";
 import Home from "./Home";
 import Hiring from "./Hiring";
 import Certification from "./Certification";
-import Fotter from "./Fotter";
-
+import Footer from "./Footer";
+import ContactUs from "./ContactUs";
+import Blog from "./Blog";
+import Blog2 from "./Blog2";
 
 function App() {
   return (
     <div className="app">
-      <header>
-        <Nav />
-      </header>
       <Router>
+        <header>
+          <Nav />
+        </header>
         <Switch>
+          <Route path="/contactus">
+            <ContactUs />
+          </Route>
+          <Route path="/blog">
+            <Blog />
+          </Route>
+          <Route path="/blog2">
+            <Blog2 />
+          </Route>
           <Route path="/hiring">
             <Hiring />
           </Route>
@@ -27,9 +38,9 @@ function App() {
           </Route>
         </Switch>
       </Router>
-      <fotter>
-        <Fotter />
-      </fotter>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

@@ -31,12 +31,12 @@ function Certificate(){
             We look forward to certifying you and thereby enhancing your skill
             set and enriching your ever-growing profile.
           </p>
-          <form action="">
+          <form action="#">
             <p>Subscribe here to get Certificates</p>
             <div className="inputTag">
-              <div className="col col1">
-                <input type="text" />
-                <input type="text" />
+              <div className="">
+                <input className="place" type="text" placeholder="name" />
+                <input type="text" placeholder="name" />
                 <input type="text" />
               </div>
               <div className="col col2">

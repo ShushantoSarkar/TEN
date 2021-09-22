@@ -1,11 +1,11 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
-import "./css/Fotter.css";
+import "./css/Footer.css";
 
 function Fotter() {
   return (
     <>
-      <div className="fotter">
+      <div className="footer">
         <div className="row1">
           <SocialIcon
             className="socialIcon facebook"
@@ -23,19 +23,21 @@ function Fotter() {
         <div className="row2">
           <p>Subscribe to out newsletter</p>
           <form action="">
-            <div className="col1">
-              <input type="text" name="name" placeholde="Name" />
-              <input type="text" name="collage" id="collage" />
-            </div>
-            <div className="col2">
-              <input type="number" name="mobile" id="mobile" />
-              <input type="mail" name="mail" id="mail" />
+            <div className="col">
+              <div className="col1">
+                <input type="text" placeholder="Full Name" />
+                <input type="text" name="mobile" id="mobile" placeholder="Mobile No."/>
+              </div>
+              <div className="col2">
+                <input type="text" name="college" id="collage" placeholder="College Name" />
+                <input type="mail" name="mail" id="mail" placeholder="Email"/>
+              </div>
             </div>
             <div className="checkbox">
-              <input type="checkbox" />
-              <option value="Discord">Join TEN's Discord Cmmunity</option>
+              <input type="checkbox" name="Discord" />
+              <p> Join TEN's Discord Community</p>
             </div>
-            <input className='submitBtn' type="submit" name="" />
+            <input className="fSubmitBtn" type="submit" name="" />
           </form>
         </div>
         <div className="row3">

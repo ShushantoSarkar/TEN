@@ -38,24 +38,27 @@ function Nav() {
       <div className="navBar">
         <div className="navItems">
           <ul>
-            {/* <Link to="/">
-              <li className="btn, active">Home</li>
-            </Link> */}
+            <Link to="/">
+              <li className="btn ">Home</li>
+            </Link>
             <span className="gray">|</span>
             <li className="btn">Online Courses</li>
             <span className="gray">|</span>
-            {/* <Link to="/hiring">
+            <Link to="/hiring">
               <li className="btn">We're Hiring</li>
-            </Link> */}
+            </Link>
             <span className="gray">|</span>
             <div className="moreItems">
               <li className="more btn">More</li>
               <div className="moreContent">
                 <ul>
-                  <li className="btn">Blog</li>
-                  {/* <Link to="/certification">
+                  <Link to="/blog">
+                    <li className="btn">Blog</li>
+                  </Link>
+
+                  <Link to="/certification">
                     <li className="btn">Certification</li>
-                  </Link> */}
+                  </Link>
                   <li className="btn">Alumni Team</li>
                   <li className="btn">Forum</li>
                   <li className="btn">Hackathon</li>
@@ -64,7 +67,9 @@ function Nav() {
                   <li className="btn">Mentorship</li>
                   <li className="btn">Social Media</li>
                   <li className="btn">Testimonials</li>
-                  <li className="btn">Contact Us</li>
+                  <Link to="/contactus">
+                    <li className="btn">Contact Us</li>
+                  </Link>
                   <li className="btn">Complaints</li>
                 </ul>
               </div>

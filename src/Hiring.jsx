@@ -32,6 +32,45 @@ function Hiring() {
             <img src="./images/pay.webp" alt="QR code" />
           </div>
         </div>
+
+        <div className="applicationForm">
+          <h2>Application From</h2>
+          <p>Registration Fee Rs. 100/-</p>
+
+          <form action="#">
+            <label>Choose relevant internship opening</label>
+            <br />
+            <select>
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="fiat">Fiat</option>
+              <option value="audi">Audi</option>
+            </select>
+            <br />
+            <label>Choose relevant internship opening</label>
+            <br />
+            <select>
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="fiat">Fiat</option>
+              <option value="audi">Audi</option>
+            </select>
+            <br />
+            <label>Choose relevant internship opening</label>
+            <br />
+            <select>
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="fiat">Fiat</option>
+              <option value="audi">Audi</option>
+            </select>
+            <br />
+            <label>Payment Transaction ID</label>
+            <br />
+            <input className="payment" type="text" />
+            <input className="hSubmitBtn" type="submit" value="Next"/>
+          </form>
+        </div>
       </>
     );
 }
