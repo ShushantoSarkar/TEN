@@ -9,6 +9,8 @@ import Footer from "./Footer";
 import ContactUs from "./ContactUs";
 import Blog from "./Blog";
 import Blog2 from "./Blog2";
+import SocialMedia from "./SocialMedia";
+import OnlineCourses from "./OnlineCourses";
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
           <Nav />
         </header>
         <Switch>
+          <Route path="/onlinecourses">
+            <OnlineCourses />
+          </Route>
           <Route path="/contactus">
             <ContactUs />
           </Route>
@@ -26,6 +31,9 @@ function App() {
           </Route>
           <Route path="/blog2">
             <Blog2 />
+          </Route>
+          <Route path="/socialmedia">
+            <SocialMedia />
           </Route>
           <Route path="/hiring">
             <Hiring />

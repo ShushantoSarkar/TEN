@@ -42,7 +42,9 @@ function Nav() {
               <li className="btn ">Home</li>
             </Link>
             <span className="gray">|</span>
-            <li className="btn">Online Courses</li>
+            <Link to="/onlinecourses">
+              <li className="btn">Online Courses</li>
+            </Link>
             <span className="gray">|</span>
             <Link to="/hiring">
               <li className="btn">We're Hiring</li>
@@ -65,7 +67,9 @@ function Nav() {
                   <li className="btn"> Membership Resgistration</li>
                   <li className="btn">Campus Ambassador Program</li>
                   <li className="btn">Mentorship</li>
-                  <li className="btn">Social Media</li>
+                  <Link to="/socialmedia">
+                    <li className="btn">Social Media</li>
+                  </Link>
                   <li className="btn">Testimonials</li>
                   <Link to="/contactus">
                     <li className="btn">Contact Us</li>

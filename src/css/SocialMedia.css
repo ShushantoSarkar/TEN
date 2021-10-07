@@ -1,0 +1,98 @@
+.socialMediaContainer{
+  background-image: url(../images/socialbg.png);
+}
+
+.tags {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 20px;
+}
+
+.sCard {
+  margin: 2px;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.sCard a {
+  text-decoration: none;
+  color: black;
+}
+
+.instagram p:hover {
+  color: black !important;
+}
+
+.instagram {
+  background-color: #d1e7f1;
+  padding: 10px !important;
+  margin: -15px !important;
+  font-size: 13px;
+  justify-content: start !important;
+}
+
+.socialIcons {
+  padding: 60px 30px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  /* visibility: hidden; */
+  background-color: rgb(0, 0, 0);
+  opacity: 0.5;
+  color: white !important;
+}
+
+.socialIcons:hover {
+  /* visibility: visible !important; */
+}
+
+
+.socialIcons a{
+    color: white;
+}
+
+.socialIcons a:hover {
+    color: white;
+}
+
+.update{
+    background-color: #8D018B;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 95%;
+    margin: 50px auto;
+    color: white;
+    font-size: 12px;
+    padding: 0px 20px;
+}
+
+.update p{
+    padding-top: 10px;
+}
+
+.follow{
+    width: 65%;
+    margin: 0 auto;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo img{
+    width: 80%;
+}
+
+.logoName{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 10px;
+}

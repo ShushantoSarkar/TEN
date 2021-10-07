@@ -128,7 +128,7 @@ input::placeholder {
 }
 
 .moreContent{
-    display: none;
+  display: none;
 }
 
 .moreItems:hover .moreContent {
