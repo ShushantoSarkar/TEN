@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+
+# Emoji Search
+This is a Emoji search app.
+##### Made by Shushanto Sarkar 
+ For TEN as Core Task 4 
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
