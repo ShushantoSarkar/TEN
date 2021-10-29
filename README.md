@@ -1,8 +1,8 @@
 
 # Emoji Search
-This is a Emoji search app.
+This is a TEN Web app.
 ##### Made by Shushanto Sarkar 
- For TEN as Core Task 4 
+ For TEN as Core Task 1
 
 ## Getting Started with Create React App
 
