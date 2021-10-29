@@ -10,7 +10,6 @@ import {
   CardSubtitle,
 } from "reactstrap";
 
-// import Slider from "./Slider";
 
 const OnlineCoursesContainer = () => {
   const courseInfo = [
@@ -297,19 +296,14 @@ const OnlineCoursesContainer = () => {
           <h5>Filter By </h5>
           <hr />
           <p className="price">Price</p>
-          <div class="slidecontainer">
-            {/* <Slider/> */}
-            <input type="range" min="1" max="100" class="slider" id="myRange" />
-          </div>
+          <input type="range" min="1" max="100" class="slider" id="myRange" />
           <hr />
         </div>
       </div>
       <div className="courseBody">
         <div className="sortBy">
           <Dropdown className="Dropdown">
-            <Dropdown.Toggle id="dropdown-basic">
-              Sort by
-            </Dropdown.Toggle>
+            <Dropdown.Toggle id="dropdown-basic">Sort by</Dropdown.Toggle>
 
             <Dropdown.Menu>
               <Dropdown.Item href="#/action-1">Newest</Dropdown.Item>

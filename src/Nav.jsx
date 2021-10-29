@@ -3,13 +3,10 @@ import { Link } from "react-router-dom";
 import "./css/Nav.css";
 import { FiShoppingCart } from "react-icons/fi";
 import { CgProfile } from "react-icons/cg";
-import { GiHamburgerMenu } from "react-icons/gi";
-
-
 
 function Nav() {
   return (
-    <>
+    <nav>
       <div className="topBar">
         <div className="cName">
           <span className="black">T</span>he <br />
@@ -17,39 +14,47 @@ function Nav() {
           ntrepreneurship <br />
           <span className="black">N</span>etwork
         </div>
+        <div className="cLogo">
+          <img src="images/cLogo.png" alt="Company Logo" />
+        </div>
         <div className="topItems">
-          <div className="row1">
-            <div className="cart">
-              <button>
-                <FiShoppingCart />
-              </button>
-            </div>
-            <div className="loginBtn">
-              <button>
-                <CgProfile /> <span className="loginText"> Log In </span>
-              </button>
-            </div>
-          </div>
-          <div className="searchBar">
-            <input type="text" placeholder="Search here..." />
+          <button className="cart">
+            <FiShoppingCart />
+          </button>
+
+          <button className="loginBtn">
+            <CgProfile /> <span className="loginText"> Log In </span>
+          </button>
+
+          <div class="search-container">
+            <form action="#" class="hovering">
+              <input
+                class="searchBar"
+                type="text"
+                placeholder="Search here..."
+                name="search"
+              />
+              <i class="fas fa-search image1"></i>
+            </form>
           </div>
         </div>
       </div>
+      
       <div className="navBar">
         <div className="navItems">
           <ul>
             <Link to="/">
               <li className="btn ">Home</li>
             </Link>
-            <span className="gray">|</span>
+            <span className="grey">|</span>
             <Link to="/onlinecourses">
               <li className="btn">Online Courses</li>
             </Link>
-            <span className="gray">|</span>
+            <span className="grey">|</span>
             <Link to="/hiring">
               <li className="btn">We're Hiring</li>
             </Link>
-            <span className="gray">|</span>
+            <span className="grey">|</span>
             <div className="moreItems">
               <li className="more btn">More</li>
               <div className="moreContent">
@@ -57,34 +62,47 @@ function Nav() {
                   <Link to="/blog">
                     <li className="btn">Blog</li>
                   </Link>
-
                   <Link to="/certification">
                     <li className="btn">Certification</li>
                   </Link>
-                  <li className="btn">Alumni Team</li>
-                  <li className="btn">Forum</li>
-                  <li className="btn">Hackathon</li>
-                  <li className="btn"> Membership Resgistration</li>
-                  <li className="btn">Campus Ambassador Program</li>
-                  <li className="btn">Mentorship</li>
+                  <Link to="/alumniteam">
+                    <li className="btn">Alumni Team</li>
+                  </Link>
+                  <Link to="/forum">
+                    <li className="btn">Forum</li>
+                  </Link>
+                  <Link to="/hackathon">
+                    <li className="btn">Hackathon</li>
+                  </Link>
+                  <Link to="/membershipresgistration">
+                    <li className="btn"> Membership Resgistration</li>
+                  </Link>
+                  <Link to="/campusambassador">
+                    <li className="btn">Campus Ambassador Program</li>
+                  </Link>
+                  <Link to="/mentorship">
+                    <li className="btn">Mentorship</li>
+                  </Link>
                   <Link to="/socialmedia">
                     <li className="btn">Social Media</li>
                   </Link>
-                  <li className="btn">Testimonials</li>
-                  <Link to="/contactus">
+                  <Link to="/testimonial">
+                    <li className="btn">Testimonials</li>
+                  </Link>
+                  <Link to="/contact">
                     <li className="btn">Contact Us</li>
                   </Link>
-                  <li className="btn">Complaints</li>
+                  <Link to="/complaints">
+                    <li className="btn">Complaints</li>
+                  </Link>
                 </ul>
               </div>
             </div>
           </ul>
         </div>
       </div>
-    </>
+    </nav>
   );
 }
-
-
 
 export default Nav;

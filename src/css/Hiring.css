@@ -50,6 +50,10 @@
     border: none;
 }
 
+.blank{
+    display: none;
+}
+
 .payment{
     margin-left: 3px;
     width: 95%;

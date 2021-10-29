@@ -27,11 +27,14 @@
     display: flex;
 }
 
-
 .inputTag input{
     margin: 20px;
     padding: 7px;
     width: 55%;
+}
+
+::placeholder{
+    color:black !important;
 }
 
 .submitBtn{
@@ -47,5 +50,14 @@
     margin: 0 auto;    
     margin-bottom: 20px;
     width: 45%;
-    background-color: red;
+}
+
+@media screen and (max-width:700px) {
+    .inputTag{
+        display: block;
+    }
+
+    .submitBtn{
+        font-size: 0.5rem;
+    }
 }

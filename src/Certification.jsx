@@ -34,14 +34,14 @@ function Certificate(){
           <form action="#">
             <p>Subscribe here to get Certificates</p>
             <div className="inputTag">
-              <div className="">
-                <input className="place" type="text" placeholder="name" />
-                <input type="text" placeholder="name" />
-                <input type="text" />
+              <div>
+                <input type="text" placeholder="Internship Track" />
+                <input type="text" placeholder="Mobile No." />
+                <input type="text" placeholder="Payment Transaction ID" />
               </div>
-              <div className="col col2">
-                <input type="text" />
-                <input type="text" />
+              <div>
+                <input type="text" placeholder="Full Name" />
+                <input type="text" placeholder="Email" />
               </div>
             </div>
             <input className="submitBtn" type="Submit" value="Subscribe" />

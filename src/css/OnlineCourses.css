@@ -20,6 +20,11 @@
   text-align: start;
 }
 
+.filter input{
+  padding: 0px;
+  margin-top: -200px;
+}
+
 .Dropdown {
   height: 220px;
   width: 180px;
